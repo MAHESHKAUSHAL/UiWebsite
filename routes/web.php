@@ -52,6 +52,9 @@ Route::get('list','Pagination_Contro@list');
 
 Route::get('template','BladetemplateController@index');
 
+route::view('Home','home');
+route::view('profile','profile');
+
 
 //Route::get('/template', function () {
     //return view('template');
